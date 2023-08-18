@@ -2,121 +2,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/tags/ai/</loc>
+    <loc>https://c-daniele.github.io/en/tags/ai/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tags/ai/"
+                href="https://c-daniele.github.io/it/tags/ai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/ai/"
+                href="https://c-daniele.github.io/en/tags/ai/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/artificial-intelligence/</loc>
+    <loc>https://c-daniele.github.io/en/categories/artificial-intelligence/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/categories/artificial-intelligence/"
+                href="https://c-daniele.github.io/it/categories/artificial-intelligence/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/artificial-intelligence/"
+                href="https://c-daniele.github.io/en/categories/artificial-intelligence/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://c-daniele.github.io/en/categories/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/categories/"
+                href="https://c-daniele.github.io/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://c-daniele.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/development/</loc>
+    <loc>https://c-daniele.github.io/en/categories/development/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/categories/development/"
+                href="https://c-daniele.github.io/it/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/development/"
+                href="https://c-daniele.github.io/en/categories/development/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://c-daniele.github.io/en/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/"
+                href="https://c-daniele.github.io/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://c-daniele.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/langchain/</loc>
+    <loc>https://c-daniele.github.io/en/tags/langchain/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tags/langchain/"
+                href="https://c-daniele.github.io/it/tags/langchain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/langchain/"
+                href="https://c-daniele.github.io/en/tags/langchain/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/langchain-helloworld-pdf/</loc>
+    <loc>https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/posts/langchain-helloworld-pdf/"
+                href="https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/langchain-helloworld-pdf/"
+                href="https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>https://c-daniele.github.io/en/posts/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/posts/"
+                href="https://c-daniele.github.io/it/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="https://c-daniele.github.io/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://c-daniele.github.io/en/tags/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tags/"
+                href="https://c-daniele.github.io/it/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://c-daniele.github.io/en/tags/"
                 />
   </url>
 </urlset>

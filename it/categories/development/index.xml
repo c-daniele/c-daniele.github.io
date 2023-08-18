@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Development on Dummy</title>
-    <link>http://localhost:1313/it/categories/development/</link>
+    <link>https://c-daniele.github.io/it/categories/development/</link>
     <description>Recent content in Development on Dummy</description>
     <image>
       <title>Dummy</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Mon, 24 Jul 2023 17:45:02 +0200</lastBuildDate><atom:link href="http://localhost:1313/it/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 17:45:02 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM - Esperimenti con LangChain - Parte 1</title>
-      <link>http://localhost:1313/it/posts/langchain-helloworld-pdf/</link>
+      <link>https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/</link>
       <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
       
-      <guid>http://localhost:1313/it/posts/langchain-helloworld-pdf/</guid>
+      <guid>https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/</guid>
       <description>Intro Per chi non lo conoscesse, LangChain è un framework per lo sviluppo di applicazioni che fanno uso di LLMs.
 Come si evince dal nome stesso, LangChain si basa sul concetto di Catena LLM, la quale combina 3 elementi:
 I Prompt Templates: fanno riferimento ad un modo riproducibile per generare un prompt. Contiene una stringa di testo (&amp;ldquo;il modello&amp;rdquo;), che può accettare una serie di parametri dall&amp;rsquo;utente finale e genera il prompt definitivo che viene passato in input al modello Il modello linguistico (LLM): in particolare, LangChain si integra con i provider più importanti (OpenAI, Cohere, Hugging Face, etc) Gli Output Parsers: consentono di estrarre dati in forma strutturata dalle risposte restituite dal modello linguistico I Prompt Templates: fanno riferimento ad un modo riproducibile per generare un prompt.</description>
