@@ -13,11 +13,22 @@
     <language>en-US</language>
     <lastBuildDate>Mon, 24 Jul 2023 17:45:02 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LLM - Experimenting LangChain - Part 1</title>
-      <link>https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/</link>
+      <title>Langchain pt. 2 - Data Analysis through Agents</title>
+      <link>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</link>
       <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
       
-      <guid>https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/</guid>
+      <guid>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</guid>
+      <description>Intro In the previous article I gave a very brief overview of LangChain, describing its main concepts with some examples with unstructured data in pdf format.
+Following the same approach, in this article we will give a brief introduction to Agents and proceed by trying to answer an ambitious question:
+leveraging these new AI tools, can we carry out data analysis on our DB without any knowledge of SQL nor of the data model, simply starting from a text prompt in natural language?</description>
+    </item>
+    
+    <item>
+      <title>LLM - Experimenting LangChain - Part 1</title>
+      <link>https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/</link>
+      <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/</guid>
       <description>Intro For those unfamiliar with it, LangChain is a framework for developing applications that make use of LLMs.
 As the name suggests, LangChain is based on the concept of LLM Chain, which combines 3 elements:
 Prompt Templates: they refer to a reproducible way to generate a prompt. Contains a text string (&amp;ldquo;the model&amp;rdquo;), which can accept a series of parameters from the end user and generates the definitive prompt which is passed as input to the model The language model (LLM): LangChain integrates with the most important providers (OpenAI, Cohere, Hugging Face, etc) Output Parsers: allow to extract structure data form from the answers returned by the linguistic model The framework has 2 very interesting features:</description>

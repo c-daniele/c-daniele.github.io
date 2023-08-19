@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>agents on Cdani&#39;s Blog</title>
+    <link>https://c-daniele.github.io/it/tags/agents/</link>
+    <description>Recent content in agents on Cdani&#39;s Blog</description>
+    <image>
+      <title>Cdani&#39;s Blog</title>
+      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-IT</language>
+    <lastBuildDate>Mon, 24 Jul 2023 17:45:02 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Langchain pt. 2 - Analisi dati tramite Agenti</title>
+      <link>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</link>
+      <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</guid>
+      <description>Intro Nel precedente articolo ho fatto una brevissima panoramica di LangChain, descrivendone i concetti principali e raccontando un esempio di caso d&amp;rsquo;uso con dati non strutturati in formato pdf.
+Seguendo lo stesso approccio, in questo articolo faremo una breve introduzione sugli Agenti e procederemo provando a rispondere ad una domanda ambiziosa:
+è possibile, tramite l&amp;rsquo;AI, fare analisi sui dati presenti in un DB senza alcuna conoscenza di SQL né tantomeno del modello dati, a partire semplicemente da un prompt testuale in lingua naturale?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://c-daniele.github.io/en/tags/agents/</loc>
+    <lastmod>2023-07-24T17:45:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/tags/agents/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/tags/agents/"
+                />
+  </url><url>
     <loc>https://c-daniele.github.io/en/tags/ai/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
@@ -80,17 +93,30 @@
                 href="https://c-daniele.github.io/en/tags/langchain/"
                 />
   </url><url>
-    <loc>https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/</loc>
+    <loc>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</loc>
     <lastmod>2023-07-24T17:45:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/"
+                href="https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://c-daniele.github.io/en/posts/langchain-helloworld-pdf/"
+                href="https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/</loc>
+    <lastmod>2023-07-24T17:45:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/"
                 />
   </url><url>
     <loc>https://c-daniele.github.io/en/posts/</loc>
@@ -117,6 +143,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://c-daniele.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/archives/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/search/"
                 />
   </url>
 </urlset>

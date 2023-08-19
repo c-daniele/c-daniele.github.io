@@ -13,11 +13,22 @@
     <language>en-IT</language>
     <lastBuildDate>Mon, 24 Jul 2023 17:45:02 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LLM - Esperimenti con LangChain - Parte 1</title>
-      <link>https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/</link>
+      <title>Langchain pt. 2 - Analisi dati tramite Agenti</title>
+      <link>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</link>
       <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
       
-      <guid>https://c-daniele.github.io/it/posts/langchain-helloworld-pdf/</guid>
+      <guid>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</guid>
+      <description>Intro Nel precedente articolo ho fatto una brevissima panoramica di LangChain, descrivendone i concetti principali e raccontando un esempio di caso d&amp;rsquo;uso con dati non strutturati in formato pdf.
+Seguendo lo stesso approccio, in questo articolo faremo una breve introduzione sugli Agenti e procederemo provando a rispondere ad una domanda ambiziosa:
+è possibile, tramite l&amp;rsquo;AI, fare analisi sui dati presenti in un DB senza alcuna conoscenza di SQL né tantomeno del modello dati, a partire semplicemente da un prompt testuale in lingua naturale?</description>
+    </item>
+    
+    <item>
+      <title>LLM - Esperimenti con LangChain - Parte 1</title>
+      <link>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</link>
+      <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</guid>
       <description>Intro Per chi non lo conoscesse, LangChain è un framework per lo sviluppo di applicazioni che fanno uso di LLMs.
 Come si evince dal nome stesso, LangChain si basa sul concetto di Catena LLM, la quale combina 3 elementi:
 I Prompt Templates: fanno riferimento ad un modo riproducibile per generare un prompt. Contiene una stringa di testo (&amp;ldquo;il modello&amp;rdquo;), che può accettare una serie di parametri dall&amp;rsquo;utente finale e genera il prompt definitivo che viene passato in input al modello Il modello linguistico (LLM): in particolare, LangChain si integra con i provider più importanti (OpenAI, Cohere, Hugging Face, etc) Gli Output Parsers: consentono di estrarre dati in forma strutturata dalle risposte restituite dal modello linguistico I Prompt Templates: fanno riferimento ad un modo riproducibile per generare un prompt.</description>
