@@ -11,31 +11,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 13 Aug 2023 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>agents</title>
-      <link>https://c-daniele.github.io/it/tags/agents/</link>
-      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/agents/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
       <link>https://c-daniele.github.io/it/tags/ai/</link>
-      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/it/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>api</title>
+      <link>https://c-daniele.github.io/it/tags/api/</link>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>langchain</title>
       <link>https://c-daniele.github.io/it/tags/langchain/</link>
-      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/it/tags/langchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openapi</title>
+      <link>https://c-daniele.github.io/it/tags/openapi/</link>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/openapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://c-daniele.github.io/it/tags/rest/</link>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swagger</title>
+      <link>https://c-daniele.github.io/it/tags/swagger/</link>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/swagger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agents</title>
+      <link>https://c-daniele.github.io/it/tags/agents/</link>
+      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/agents/</guid>
       <description></description>
     </item>
     

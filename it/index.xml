@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 13 Aug 2023 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Langchain pt. 3 - Integrazione delle API in una applicazione AI-powered</title>
+      <link>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</link>
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</guid>
+      <description>Intro L&amp;rsquo;anno scorso, Gartner ha inserito la Generative AI nella fase di picco di aspettative all&amp;rsquo;interno del suo modello di Hype Cycle per il mondo della AI.
+Recentemente alcuni nomi importanti tra le grandi aziende del settore hanno paragonato l&amp;rsquo;entusiasmo della GenAI alla bolla dotcom. Inoltre sono circolate delle indiscrezioni intorno ai principali Cloud Providers, secondo le quali essi stiano addirittura dando indicazioni ai loro Sales Team di rallentare l&amp;rsquo;entusiasmo dimostrato verso i clienti nei confronti delle iniziative di GenAI, o comunque di utilizzare un approccio cauto e consapevole dei costi e dei reali benefici.</description>
+    </item>
+    
     <item>
       <title>Langchain pt. 2 - Analisi dati tramite Agenti</title>
       <link>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</link>
