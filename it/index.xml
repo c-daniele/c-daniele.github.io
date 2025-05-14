@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Policy Puppetry Prompt Injection</title>
+      <link>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</guid>
+      <description>Policy Puppetry Prompt Injection Qualche giorno fa ho fatto qualche esperimento con alcune tecniche di Jailbraking, che condivido nel repo. Sono partito da un articolo di HiddenLayer, di qualche settimana fa, in cui il team di ricerca ha pubblicato un articolo che descrive una tecnica piuttosto creativa e ingegnosa di jailbreaking, per bypassare i safety guardails e l&amp;rsquo;allineamento dei modelli di frontiera. La tecnica sembra essere universale ed applicatbile con un singolo prompt a più modelli ed è in grado di mostrare contenuti tipicamente non safety o addirittura mostrare porzioni del system prompt nativo.</description>
+    </item>
+    
     <item>
       <title>Langchain pt. 3 - Come invocare API Rest in linguaggio naturale</title>
       <link>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</link>

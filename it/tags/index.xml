@@ -11,13 +11,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
       <link>https://c-daniele.github.io/it/tags/ai/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/it/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://c-daniele.github.io/it/tags/security/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swagger</title>
+      <link>https://c-daniele.github.io/it/tags/swagger/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/swagger/</guid>
       <description></description>
     </item>
     
@@ -54,15 +72,6 @@
       <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/it/tags/rest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>swagger</title>
-      <link>https://c-daniele.github.io/it/tags/swagger/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/swagger/</guid>
       <description></description>
     </item>
     
