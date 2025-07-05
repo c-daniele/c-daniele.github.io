@@ -15,19 +15,6 @@
                 href="https://c-daniele.github.io/en/tags/ai/"
                 />
   </url><url>
-    <loc>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/"
-                />
-  </url><url>
     <loc>https://c-daniele.github.io/en/tags/analysis/</loc>
     <lastmod>2025-07-05T00:00:00+02:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://c-daniele.github.io/en/categories/artificial-intelligence/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</loc>
+    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/"
                 />
   </url><url>
     <loc>https://c-daniele.github.io/en/categories/</loc>
