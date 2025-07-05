@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An advanced tecnique for analyzying Excel files with LLMs</title>
+      <link>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</guid>
+      <description>Beyond RAG: How to Effectively Analyze an Excel File Using an LLM As AI developers, we&amp;rsquo;re always looking for ways to make data more accessible and queryable through natural language. While Retrieval-Augmented Generation (RAG) has revolutionized how we interact with unstructired textual documents, it falls short when dealing with structured data. The RAG approach is so powerful that users or even early stage AI developers may fall in the illusion that it can be applied to any kind of data, including structured data like Excel files.</description>
+    </item>
+    
     <item>
       <title>Policy Puppetry Prompt Injection</title>
       <link>https://c-daniele.github.io/en/posts/2025-05-15-policy-puppetry/</link>

@@ -11,13 +11,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
       <link>https://c-daniele.github.io/en/tags/ai/</link>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/en/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://c-daniele.github.io/en/tags/analysis/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://c-daniele.github.io/en/tags/data/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excel</title>
+      <link>https://c-daniele.github.io/en/tags/excel/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>langchain</title>
+      <link>https://c-daniele.github.io/en/tags/langchain/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/tags/langchain/</guid>
       <description></description>
     </item>
     
@@ -45,15 +81,6 @@
       <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/en/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>langchain</title>
-      <link>https://c-daniele.github.io/en/tags/langchain/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/en/tags/langchain/</guid>
       <description></description>
     </item>
     
