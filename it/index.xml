@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-Reg: Costruire un Agent Registry aperto per il Protocollo A2A</title>
+      <link>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</guid>
+      <description>Introduzione Tra una cosa e l&amp;rsquo;altra, in queste incandescenti giornate di agosto, ne ho approfittato per leggere bene la specifica del protocollo A2A di Google e provare a capire come utilizzarne i concetti per disegnare una un&amp;rsquo;architettura enterprise di Agenti, possibilmente slegata da vincoli di piattaforma tecnologica.
+Che cos&amp;rsquo;è A2A? Il Protocollo Agent2Agent (A2A) è uno standard aperto progettato e condiviso pubblicamente da Google per facilitare la comunicazione e la collaborazione degli agenti AI.</description>
+    </item>
+    
     <item>
       <title>Oltre il RAG: Come analizzare efficacemente un file Excel tramite un LLM</title>
       <link>https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</link>

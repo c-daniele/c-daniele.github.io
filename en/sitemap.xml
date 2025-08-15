@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://c-daniele.github.io/en/tags/a2a/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/tags/a2a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/tags/a2a/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/tags/agent/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/tags/agent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/tags/agent/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/posts/2025-08-15-agent-reg-for-a2a/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/posts/2025-08-15-agent-reg-for-a2a/"
+                />
+  </url><url>
     <loc>https://c-daniele.github.io/en/tags/ai/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -13,6 +52,84 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://c-daniele.github.io/en/tags/ai/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/categories/artificial-intelligence/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/categories/artificial-intelligence/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/categories/artificial-intelligence/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/categories/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/categories/development/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/categories/development/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/posts/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://c-daniele.github.io/en/tags/</loc>
+    <lastmod>2025-08-15T00:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://c-daniele.github.io/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://c-daniele.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://c-daniele.github.io/en/tags/analysis/</loc>
@@ -28,19 +145,6 @@
                 href="https://c-daniele.github.io/en/tags/analysis/"
                 />
   </url><url>
-    <loc>https://c-daniele.github.io/en/categories/artificial-intelligence/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/categories/artificial-intelligence/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/categories/artificial-intelligence/"
-                />
-  </url><url>
     <loc>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</loc>
     <lastmod>2025-07-05T00:00:00+02:00</lastmod>
     <xhtml:link
@@ -54,32 +158,6 @@
                 href="https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/"
                 />
   </url><url>
-    <loc>https://c-daniele.github.io/en/categories/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://c-daniele.github.io/en/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/"
-                />
-  </url><url>
     <loc>https://c-daniele.github.io/en/tags/data/</loc>
     <lastmod>2025-07-05T00:00:00+02:00</lastmod>
     <xhtml:link
@@ -91,19 +169,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://c-daniele.github.io/en/tags/data/"
-                />
-  </url><url>
-    <loc>https://c-daniele.github.io/en/categories/development/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/categories/development/"
                 />
   </url><url>
     <loc>https://c-daniele.github.io/en/tags/excel/</loc>
@@ -130,32 +195,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://c-daniele.github.io/en/tags/langchain/"
-                />
-  </url><url>
-    <loc>https://c-daniele.github.io/en/posts/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>https://c-daniele.github.io/en/tags/</loc>
-    <lastmod>2025-07-05T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://c-daniele.github.io/it/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://c-daniele.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://c-daniele.github.io/en/posts/2025-05-15-policy-puppetry/</loc>
