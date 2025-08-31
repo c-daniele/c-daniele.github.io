@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AlphaAgents: Implementazione Multi-Agent A2A per Analisi Finanziaria Collaborativa</title>
+      <link>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</guid>
+      <description>1. Introduzione La quantità di framework che sta nascendo per lo sviluppo di applicazioni di GenAI è incredibile e a mio avviso inizia ad essere pure eccessiva. Ogniqualvolta salta fuori un nuovo framework, mi sembra che faccia più o meno le stesse cose di quello precedente. Magari alcuni hanno una capacità di modularizzazione migliore, oppure un disegno più robusto contro l&amp;rsquo;obsolescenza nel lungo periodo, ma più o meno mi sembrano tutti gli stessi e, sebbene mi piaccia sperimentare, lo studio di nuovi mirabolanti e promettenti framework di GenAI comincia ad appassionarmi sempre meno.</description>
+    </item>
+    
     <item>
       <title>Agent-Reg: Costruire un Agent Registry aperto per il Protocollo A2A</title>
       <link>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</link>
