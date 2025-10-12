@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disuguaglianze di Bell: un esperimento di meccanica quantistica con Qiskit</title>
+      <link>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</guid>
+      <description>1. Introduzione 1.1. Intro dell&amp;rsquo;intro Non so bene cosa sia questo articolo, un misto tra esperimento di coding, divulgazione e forse uno svago di qualcuno che in un&amp;rsquo;altra vita avrebbe voluto fare il fisico.
+Ce l&amp;rsquo;avevo nel cassetto da un po&amp;rsquo; di tempo, da quando avevo letto questo articolo di alcuni ricercatori del CERN, che spiega come sia possibile simulare un esperimento sulle disuguaglianze di Bell usando il framework Qibo.</description>
+    </item>
+    
     <item>
       <title>AlphaAgents: Implementazione Multi-Agent A2A per Analisi Finanziaria Collaborativa</title>
       <link>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</link>

@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bell&#39;s Inequalities: A quantum computing experiment with Qiskit</title>
+      <link>https://c-daniele.github.io/en/posts/2025-10-11-bells-inequalities/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/posts/2025-10-11-bells-inequalities/</guid>
+      <description>1. Introduction 1.1. Intro to the intro I&amp;rsquo;m not quite sure what this article is—a mix of coding experiment, science communication, and maybe just a fun project for someone who in another life would have wanted to be a physicist.
+I&amp;rsquo;ve had this in my drawer for a while, since I read this article by some CERN researchers that explains how you can simulate an experiment on Bell&amp;rsquo;s inequalities using the Qibo framework.</description>
+    </item>
+    
     <item>
       <title>AlphaAgents: Multi-Agent A2A Implementation for Collaborative Financial Analysis</title>
       <link>https://c-daniele.github.io/en/posts/2025-08-31-alphaagents-a2a/</link>

@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Computing</title>
+      <link>https://c-daniele.github.io/it/categories/quantum-computing/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/categories/quantum-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>https://c-daniele.github.io/it/categories/science/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/categories/science/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Artificial Intelligence</title>
       <link>https://c-daniele.github.io/it/categories/artificial-intelligence/</link>
