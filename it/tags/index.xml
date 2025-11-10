@@ -11,7 +11,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>https://c-daniele.github.io/it/tags/agents/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenAI</title>
+      <link>https://c-daniele.github.io/it/tags/genai/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/genai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Langchain</title>
+      <link>https://c-daniele.github.io/it/tags/langchain/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/tags/langchain/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Bell</title>
       <link>https://c-daniele.github.io/it/tags/bell/</link>
@@ -49,34 +76,7 @@
     </item>
     
     <item>
-      <title>A2A</title>
-      <link>https://c-daniele.github.io/it/tags/a2a/</link>
-      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/a2a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>agent</title>
-      <link>https://c-daniele.github.io/it/tags/agent/</link>
-      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/agent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>https://c-daniele.github.io/it/tags/ai/</link>
-      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>analysis</title>
+      <title>Analysis</title>
       <link>https://c-daniele.github.io/it/tags/analysis/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
       
@@ -85,7 +85,7 @@
     </item>
     
     <item>
-      <title>data</title>
+      <title>Data</title>
       <link>https://c-daniele.github.io/it/tags/data/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
       
@@ -94,7 +94,7 @@
     </item>
     
     <item>
-      <title>excel</title>
+      <title>Excel</title>
       <link>https://c-daniele.github.io/it/tags/excel/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
       
@@ -103,16 +103,7 @@
     </item>
     
     <item>
-      <title>langchain</title>
-      <link>https://c-daniele.github.io/it/tags/langchain/</link>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/langchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://c-daniele.github.io/it/tags/security/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
       
@@ -121,7 +112,7 @@
     </item>
     
     <item>
-      <title>swagger</title>
+      <title>Swagger</title>
       <link>https://c-daniele.github.io/it/tags/swagger/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
       
@@ -130,7 +121,7 @@
     </item>
     
     <item>
-      <title>api</title>
+      <title>Api</title>
       <link>https://c-daniele.github.io/it/tags/api/</link>
       <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
@@ -139,29 +130,11 @@
     </item>
     
     <item>
-      <title>openapi</title>
+      <title>OpenAPI</title>
       <link>https://c-daniele.github.io/it/tags/openapi/</link>
       <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
       
       <guid>https://c-daniele.github.io/it/tags/openapi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rest</title>
-      <link>https://c-daniele.github.io/it/tags/rest/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/rest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>agents</title>
-      <link>https://c-daniele.github.io/it/tags/agents/</link>
-      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
-      
-      <guid>https://c-daniele.github.io/it/tags/agents/</guid>
       <description></description>
     </item>
     

@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perché LangChain è ancora il miglior framework per la GenAI</title>
+      <link>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</guid>
+      <description>Langchain 1.0 Il 22 ottobre 2025, LangChain ha raggiunto finalmente la versione 1.0. Dopo ben tre anni, questa milestone rappresenta qualcosa di molto diverso sia rispetto alle versioni precedenti del framework, sia rispetto agli altri competitor , che nel frattempo sono diventati parecchi, creando anche un po&amp;rsquo; di confusione e smarrimento per chi si trova a definire l&amp;rsquo;architettura software di un nuovo progetto.
+Per far capire quanto sia volatile questo mercato, vale la pena notare che il framework sviluppato da Microsoft chiamato &amp;ldquo;AutoGen&amp;rdquo;, con 51k+ stelle GitHub, è recentemente entrato in maintenance mode, poiché Microsoft ha deciso di concentrare i propri sforzi sul Microsoft Agent Framework che, ovviamente è molto più integrato con i servizi per la GenAI di Microsoft.</description>
+    </item>
+    
     <item>
       <title>Disuguaglianze di Bell: un esperimento di meccanica quantistica con Qiskit</title>
       <link>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</link>

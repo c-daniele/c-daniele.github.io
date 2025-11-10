@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why LangChain Is Still the Best Framework for GenAI</title>
+      <link>https://c-daniele.github.io/en/posts/2025-11-10-genai-frameworks-update/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/posts/2025-11-10-genai-frameworks-update/</guid>
+      <description>Langchain 1.0 On October 22, 2025, LangChain finally reached version 1.0. After three years, this milestone represents something significantly different both from previous versions of the framework and from other competitors, which have become quite numerous in the meantime, creating some confusion and bewilderment for those who find themselves defining the software architecture for a new project.
+To understand how volatile this market is, it&amp;rsquo;s worth noting that the framework developed by Microsoft called &amp;ldquo;AutoGen&amp;rdquo;, with 51k+ GitHub stars, recently entered maintenance mode, as Microsoft decided to focus its efforts on the Microsoft Agent Framework, which is obviously much more integrated with Microsoft&amp;rsquo;s GenAI services.</description>
+    </item>
+    
     <item>
       <title>AlphaAgents: Multi-Agent A2A Implementation for Collaborative Financial Analysis</title>
       <link>https://c-daniele.github.io/en/posts/2025-08-31-alphaagents-a2a/</link>

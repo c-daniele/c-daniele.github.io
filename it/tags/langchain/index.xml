@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>langchain on Cdani&#39;s Blog</title>
+    <title>Langchain on Cdani&#39;s Blog</title>
     <link>https://c-daniele.github.io/it/tags/langchain/</link>
-    <description>Recent content in langchain on Cdani&#39;s Blog</description>
+    <description>Recent content in Langchain on Cdani&#39;s Blog</description>
     <image>
       <title>Cdani&#39;s Blog</title>
       <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perché LangChain è ancora il miglior framework per la GenAI</title>
+      <link>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</guid>
+      <description>Langchain 1.0 Il 22 ottobre 2025, LangChain ha raggiunto finalmente la versione 1.0. Dopo ben tre anni, questa milestone rappresenta qualcosa di molto diverso sia rispetto alle versioni precedenti del framework, sia rispetto agli altri competitor , che nel frattempo sono diventati parecchi, creando anche un po&amp;rsquo; di confusione e smarrimento per chi si trova a definire l&amp;rsquo;architettura software di un nuovo progetto.
+Per far capire quanto sia volatile questo mercato, vale la pena notare che il framework sviluppato da Microsoft chiamato &amp;ldquo;AutoGen&amp;rdquo;, con 51k+ stelle GitHub, è recentemente entrato in maintenance mode, poiché Microsoft ha deciso di concentrare i propri sforzi sul Microsoft Agent Framework che, ovviamente è molto più integrato con i servizi per la GenAI di Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>AlphaAgents: Implementazione Multi-Agent A2A per Analisi Finanziaria Collaborativa</title>
+      <link>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</guid>
+      <description>1. Introduzione La quantità di framework che sta nascendo per lo sviluppo di applicazioni di GenAI è incredibile e a mio avviso inizia ad essere pure eccessiva. Ogniqualvolta salta fuori un nuovo framework, mi sembra che faccia più o meno le stesse cose di quello precedente. Magari alcuni hanno una capacità di modularizzazione migliore, oppure un disegno più robusto contro l&amp;rsquo;obsolescenza nel lungo periodo, ma più o meno mi sembrano tutti gli stessi e, sebbene mi piaccia sperimentare, lo studio di nuovi mirabolanti e promettenti framework di GenAI comincia ad appassionarmi sempre meno.</description>
+    </item>
+    
+    <item>
+      <title>Agent-Reg: Costruire un Agent Registry aperto per il Protocollo A2A</title>
+      <link>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</guid>
+      <description>Introduzione Tra una cosa e l&amp;rsquo;altra, in queste incandescenti giornate di agosto, ne ho approfittato per leggere bene la specifica del protocollo A2A di Google e provare a capire come utilizzarne i concetti per disegnare una un&amp;rsquo;architettura enterprise di Agenti, possibilmente slegata da vincoli di piattaforma tecnologica.
+Che cos&amp;rsquo;è A2A? Il Protocollo Agent2Agent (A2A) è uno standard aperto progettato e condiviso pubblicamente da Google per facilitare la comunicazione e la collaborazione degli agenti AI.</description>
+    </item>
+    
     <item>
       <title>Oltre il RAG: Come analizzare efficacemente un file Excel tramite un LLM</title>
       <link>https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</link>
