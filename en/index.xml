@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Developer --&gt; Designer switch</title>
+      <link>https://c-daniele.github.io/en/posts/2026-02-14-intro-spec-driven-development/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/posts/2026-02-14-intro-spec-driven-development/</guid>
+      <description>Intro A few months ago I had to work on a complex application on AWS: a React frontend on Amplify, several Lambda functions, Bedrock with AgentCore, Knowledge Bases, and Prompt Management. I was in a hurry, and the temptation was overwhelming: open Claude Code, throw in a generic prompt, and hope it would &amp;ldquo;figure it out.&amp;rdquo; Instead, I did something different — I wrote specifications, reviewed them, spent an entire day on it — and that day it felt like I hadn&amp;rsquo;t accomplished anything.</description>
+    </item>
+    
     <item>
       <title>Why LangChain Is Still the Best Framework for GenAI</title>
       <link>https://c-daniele.github.io/en/posts/2025-11-10-genai-frameworks-update/</link>
@@ -101,6 +110,17 @@ leveraging these new AI tools, can we carry out data analysis on our DB without 
       <description>Intro For those unfamiliar with it, LangChain is a framework for developing applications that make use of LLMs.
 As the name suggests, LangChain is based on the concept of LLM Chain, which combines 3 elements:
 Prompt Templates: they refer to a reproducible way to generate a prompt. Contains a text string (&amp;ldquo;the model&amp;rdquo;), which can accept a series of parameters from the end user and generates the definitive prompt which is passed as input to the model The language model (LLM): LangChain integrates with the most important providers (OpenAI, Cohere, Hugging Face, etc) Output Parsers: allow to extract structure data form from the answers returned by the linguistic model The framework has 2 very interesting features:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://c-daniele.github.io/en/claude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://c-daniele.github.io/en/claude/</guid>
+      <description>CLAUDE.md This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Project Overview This is a content repository for a tech blog covering Tech, Data, and AI. There is no application code — the project consists entirely of blog posts written as Markdown files, which may include inline code snippets.
+Workflow Support content creation: The primary role is to assist in drafting, researching, and refining blog posts.</description>
     </item>
     
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coding on Cdani&#39;s Blog</title>
+    <link>https://c-daniele.github.io/it/tags/coding/</link>
+    <description>Recent content in Coding on Cdani&#39;s Blog</description>
+    <image>
+      <title>Cdani&#39;s Blog</title>
+      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-IT</language>
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La transizione Sviluppatore --&gt; Progettista</title>
+      <link>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</guid>
+      <description>Intro Qualche mese fa ho dovuto mettere mano a un&amp;rsquo;applicazione complessa su AWS: frontend React su Amplify, diverse Lambda, Bedrock con AgentCore, Knowledge Bases e Prompt Management. Avevo fretta, e la tentazione era fortissima: aprire Claude Code, buttargli dentro un prompt generico e sperare che &amp;ldquo;capisse&amp;rdquo;. Invece ho fatto una cosa diversa — ho scritto specifiche, le ho revisionate, ci ho perso una giornata intera — e quel giorno mi è sembrato di non aver combinato nulla.</description>
+    </item>
+    
+  </channel>
+</rss>
