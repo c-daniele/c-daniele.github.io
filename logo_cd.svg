@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bracketGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#7b2ff7;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="0" y="0" width="512" height="512" rx="64" ry="64" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid pattern for tech feel -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="128" y1="0" x2="128" y2="512" />
+    <line x1="256" y1="0" x2="256" y2="512" />
+    <line x1="384" y1="0" x2="384" y2="512" />
+    <line x1="0" y1="128" x2="512" y2="128" />
+    <line x1="0" y1="256" x2="512" y2="256" />
+    <line x1="0" y1="384" x2="512" y2="384" />
+  </g>
+
+  <!-- Left angle bracket  < -->
+  <polyline points="120,168 68,256 120,344"
+    fill="none" stroke="url(#accentGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" />
+
+  <!-- Right angle bracket  > -->
+  <polyline points="392,168 444,256 392,344"
+    fill="none" stroke="url(#accentGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" />
+
+  <!-- Left curly brace { (decorative, small) -->
+  <text x="88" y="420" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="48" fill="#00d4ff" opacity="0.35" text-anchor="middle">{</text>
+
+  <!-- Right curly brace } (decorative, small) -->
+  <text x="424" y="420" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="48" fill="#7b2ff7" opacity="0.35" text-anchor="middle">}</text>
+
+  <!-- Main initials -->
+  <g>
+    <!-- C -->
+    <text x="194" y="296" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="150" fill="#ffffff" text-anchor="middle" letter-spacing="-4">C</text>
+
+    <!-- Dot separator with gradient -->
+    <circle cx="256" cy="270" r="8" fill="url(#accentGrad)" />
+
+    <!-- D -->
+    <text x="322" y="296" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="150" fill="#ffffff" text-anchor="middle" letter-spacing="-4">D</text>
+  </g>
+
+  <!-- Cursor blink line (code editor feel) -->
+  <rect x="370" y="188" width="4" height="100" rx="2" fill="#00d4ff" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="1.2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Subtle tagline area: angle bracket snippet -->
+  <text x="256" y="395" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="22" fill="url(#bracketGrad)" text-anchor="middle" letter-spacing="3" opacity="0.6">&lt;/tech &amp; AI&gt;</text>
+
+  <!-- Corner accent dots -->
+  <circle cx="48" cy="48" r="4" fill="#00d4ff" opacity="0.3" />
+  <circle cx="464" cy="48" r="4" fill="#7b2ff7" opacity="0.3" />
+  <circle cx="48" cy="464" r="4" fill="#7b2ff7" opacity="0.3" />
+  <circle cx="464" cy="464" r="4" fill="#00d4ff" opacity="0.3" />
+</svg>

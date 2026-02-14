@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="purp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6" />
+      <stop offset="50%" style="stop-color:#d946ef" />
+      <stop offset="100%" style="stop-color:#f43f5e" />
+    </linearGradient>
+    <linearGradient id="purp2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f43f5e" />
+      <stop offset="50%" style="stop-color:#d946ef" />
+      <stop offset="100%" style="stop-color:#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean white bg -->
+  <rect width="512" height="512" rx="96" ry="96" fill="#ffffff" />
+  
+  <!-- Very subtle border -->
+  <rect x="4" y="4" width="504" height="504" rx="94" ry="94" fill="none" stroke="#f0ecf9" stroke-width="2" />
+
+  <!-- The </> as one continuous flowing path -->
+  <!-- Left < -->
+  <path d="M 185 150 L 90 256 L 185 362" 
+    fill="none" stroke="url(#purp)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Slash -->
+  <line x1="275" y1="135" x2="237" y2="377" 
+    stroke="url(#purp)" stroke-width="26" stroke-linecap="round" />
+
+  <!-- Right > -->
+  <path d="M 327 150 L 422 256 L 327 362" 
+    fill="none" stroke="url(#purp2)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- CD initials — elegant and light -->
+  <text x="256" y="445"
+    font-family="'Inter', 'Helvetica Neue', sans-serif"
+    font-size="30" font-weight="300"
+    fill="#8b5cf6" text-anchor="middle"
+    letter-spacing="14" opacity="0.55">CD</text>
+</svg>
