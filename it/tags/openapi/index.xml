@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenAPI on Cdani&#39;s Blog</title>
     <link>https://c-daniele.github.io/it/tags/openapi/</link>
     <description>Recent content in OpenAPI on Cdani&#39;s Blog</description>
-    <image>
-      <title>Cdani&#39;s Blog</title>
-      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/tags/openapi/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>carmelo.daniele@gmail.com (Me)</managingEditor>
+    <webMaster>carmelo.daniele@gmail.com (Me)</webMaster>
+    <lastBuildDate>Sat, 20 Apr 2024 19:00:00 +0200</lastBuildDate>
+    <atom:link href="https://c-daniele.github.io/it/tags/openapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Langchain pt. 3 - Come invocare API Rest in linguaggio naturale</title>
       <link>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
-      
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</guid>
-      <description>Intro L&amp;rsquo;anno scorso, Gartner ha inserito la Generative AI nella fase di picco di aspettative all&amp;rsquo;interno del suo modello di Hype Cycle per il mondo della AI.
-Recentemente alcuni nomi importanti tra le grandi aziende del settore hanno paragonato l&amp;rsquo;entusiasmo della GenAI alla bolla dotcom. Inoltre sono circolate delle indiscrezioni intorno ai principali Cloud Providers, secondo le quali essi stiano addirittura dando indicazioni ai loro Sales Team di rallentare l&amp;rsquo;entusiasmo dimostrato verso i clienti nei confronti delle iniziative di GenAI, o comunque di utilizzare un approccio cauto e consapevole dei costi e dei reali benefici.</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;anno scorso, Gartner ha inserito la Generative AI nella fase di picco di aspettative all&amp;rsquo;interno del suo modello di &lt;a href=&#34;https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2023-gartner-hype-cycle&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Hype Cycle&lt;/a&gt; per il mondo della AI.&lt;/p&gt;&#xA;&lt;p&gt;Recentemente alcuni nomi importanti tra le grandi aziende del settore &lt;a href=&#34;https://www.wired.com/story/amazons-cloud-boss-selipsky-generative-ai-hype/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;hanno paragonato l&amp;rsquo;entusiasmo della GenAI alla bolla &lt;em&gt;dotcom&lt;/em&gt;&lt;/a&gt;.&#xA;Inoltre sono &lt;a href=&#34;https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations?ref=wheresyoured.at&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;circolate delle indiscrezioni&lt;/a&gt; intorno ai principali Cloud Providers, secondo le quali essi stiano addirittura dando indicazioni ai loro Sales Team di rallentare l&amp;rsquo;entusiasmo dimostrato verso i clienti nei confronti delle iniziative di GenAI, o comunque di utilizzare un approccio cauto e consapevole dei costi e dei reali benefici.&#xA;E&amp;rsquo; già iniziata la discesa verso la &lt;a href=&#34;https://it.wikipedia.org/wiki/Hype_cycle&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;&amp;ldquo;fossa della disillusione&amp;rdquo;&lt;/a&gt;?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

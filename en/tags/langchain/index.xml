@@ -1,86 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Langchain on Cdani&#39;s Blog</title>
     <link>https://c-daniele.github.io/en/tags/langchain/</link>
     <description>Recent content in Langchain on Cdani&#39;s Blog</description>
-    <image>
-      <title>Cdani&#39;s Blog</title>
-      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>carmelo.daniele@gmail.com (Me)</managingEditor>
+    <webMaster>carmelo.daniele@gmail.com (Me)</webMaster>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0200</lastBuildDate>
+    <atom:link href="https://c-daniele.github.io/en/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why LangChain Is Still the Best Framework for GenAI</title>
       <link>https://c-daniele.github.io/en/posts/2025-11-10-genai-frameworks-update/</link>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2025-11-10-genai-frameworks-update/</guid>
-      <description>Langchain 1.0 On October 22, 2025, LangChain finally reached version 1.0. After three years, this milestone represents something significantly different both from previous versions of the framework and from other competitors, which have become quite numerous in the meantime, creating some confusion and bewilderment for those who find themselves defining the software architecture for a new project.
-To understand how volatile this market is, it&amp;rsquo;s worth noting that the framework developed by Microsoft called &amp;ldquo;AutoGen&amp;rdquo;, with 51k+ GitHub stars, recently entered maintenance mode, as Microsoft decided to focus its efforts on the Microsoft Agent Framework, which is obviously much more integrated with Microsoft&amp;rsquo;s GenAI services.</description>
+      <description>&lt;h1 id=&#34;langchain-10&#34;&gt;Langchain 1.0&lt;/h1&gt;&#xA;&lt;p&gt;On October 22, 2025, &lt;a href=&#34;https://blog.langchain.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;LangChain finally reached version 1.0&lt;/a&gt;. After three years, this milestone represents something significantly different both from previous versions of the framework and from other competitors, which have become quite numerous in the meantime, creating some confusion and bewilderment for those who find themselves defining the software architecture for a new project.&lt;/p&gt;&#xA;&lt;p&gt;To understand how volatile this market is, it&amp;rsquo;s worth noting that the framework developed by Microsoft called &amp;ldquo;&lt;strong&gt;AutoGen&lt;/strong&gt;&amp;rdquo;, with 51k+ GitHub stars, &lt;strong&gt;recently entered maintenance mode&lt;/strong&gt;, as Microsoft decided to focus its efforts on the Microsoft Agent Framework, which is obviously much more integrated with Microsoft&amp;rsquo;s GenAI services.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AlphaAgents: Multi-Agent A2A Implementation for Collaborative Financial Analysis</title>
       <link>https://c-daniele.github.io/en/posts/2025-08-31-alphaagents-a2a/</link>
-      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2025-08-31-alphaagents-a2a/</guid>
-      <description>1. Introduction The quantity of frameworks emerging for GenAI application development is incredible and, in my opinion, is becoming excessive. Every time a new framework appears, it seems to do more or less the same things as the previous one. Perhaps some have better modularization capabilities or more robust design against long-term obsolescence, but they all seem pretty much the same to me and, although I enjoy experimenting, the study of new miraculous and promising GenAI frameworks is becoming less and less appealing.</description>
+      <description>&lt;h1 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h1&gt;&#xA;&lt;p&gt;The quantity of frameworks emerging for GenAI application development is incredible and, in my opinion, is becoming excessive.&#xA;Every time a new framework appears, it seems to do more or less the same things as the previous one. Perhaps some have better modularization capabilities or more robust design against long-term obsolescence, but they all seem pretty much the same to me and, although I enjoy experimenting, the study of new miraculous and promising GenAI frameworks is becoming less and less appealing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Agent-Reg: Building an Open Agent Registry for A2A Protocol</title>
       <link>https://c-daniele.github.io/en/posts/2025-08-15-agent-reg-for-a2a/</link>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0200</pubDate>
-      
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2025-08-15-agent-reg-for-a2a/</guid>
-      <description>Introduction During these scorching August days, I took the opportunity to thoroughly read Google&amp;rsquo;s A2A protocol specification and try to understand how to use its concepts to design an enterprise Agent architecture, possibly free from technological or platform constraints.
-What is A2A? The Agent2Agent (A2A) Protocol is an open standard designed and publicly shared by Google to facilitate communication and collaboration among AI agents. The standardization of AI interoperability model is a topic that has been discussed since the very first moments when we started talking about Agents, and there are several reasons for this:</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;During these scorching August days, I took the opportunity to thoroughly read Google&amp;rsquo;s A2A protocol specification and try to understand how to use its concepts to design an enterprise Agent architecture, possibly free from technological or platform constraints.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a2a&#34;&gt;What is A2A?&lt;/h2&gt;&#xA;&lt;p&gt;The Agent2Agent (A2A) Protocol is an open standard designed and publicly shared by Google to facilitate communication and collaboration among AI agents. The standardization of AI interoperability model is a topic that has been discussed since the very first moments when we started talking about &lt;em&gt;Agents&lt;/em&gt;, and there are several reasons for this:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beyond RAG: How to Effectively Analyze an Excel File Using an LLM</title>
       <link>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</link>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</guid>
-      <description>Abstract As AI developers, we&amp;rsquo;re always looking for ways to make data more accessible and queryable through natural language. While Retrieval-Augmented Generation (RAG) has revolutionized how we interact with unstructired textual documents, it falls short when dealing with structured data. The RAG approach is so powerful that users or even early stage AI developers may fall in the illusion that it can be applied to any kind of data, including structured data like Excel files.</description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;&#xA;&lt;p&gt;As AI developers, we&amp;rsquo;re always looking for ways to make data more accessible and queryable through natural language. While Retrieval-Augmented Generation (RAG) has revolutionized how we interact with unstructired textual documents, &lt;strong&gt;it falls short when dealing with structured data&lt;/strong&gt;.&#xA;The RAG approach is so powerful that users or even early stage AI developers may fall in &lt;strong&gt;the illusion that it can be applied to any kind of data&lt;/strong&gt;, including structured data like Excel files. However, this is a misconception that can lead to frustration and inefficiency.&#xA;One of most ubiquitous kind of file asset across all organization is the Excel file format, which could also be considered as structured or &amp;ldquo;semi-structured&amp;rdquo; at least.&#xA;Anyone who has tryed to process an Excel file using the standard Rag approach, quickly realized there is no real value with processing excel files the same way as PDFs.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Langchain pt. 3 - How to call Rest API in natural language</title>
       <link>https://c-daniele.github.io/en/posts/2024-04-20-langchain-api/</link>
-      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate>
-      
+      <pubDate>Sat, 20 Apr 2024 19:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2024-04-20-langchain-api/</guid>
-      <description>Intro Last year, Gartner put Generative AI at the peak of inflated expectations in its AI Hype Cycle.
-Recently, big tech leaders compared the hype around GenAI to the dotcom bubble. Furthermore, according to some rumors, the main Cloud Providers are even giving instructions to their Sales Teams to slow down the enthusiasm towards customers regarding GenAI initiatives and promoting cost-vs-benefits awareness. Has the drop into the trough of disillusionment already begun?</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Last year, Gartner put Generative AI at the peak of inflated expectations in its AI &lt;a href=&#34;https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2023-gartner-hype-cycle&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Hype Cycle&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Recently, big tech leaders &lt;a href=&#34;https://www.wired.com/story/amazons-cloud-boss-selipsky-generative-ai-hype/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;compared the hype around GenAI to the &lt;em&gt;dotcom&lt;/em&gt; bubble&lt;/a&gt;.&#xA;Furthermore, according to some &lt;a href=&#34;https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations?ref=wheresyoured.at&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;rumors&lt;/a&gt;, the main Cloud Providers are even giving instructions to their Sales Teams to slow down the enthusiasm towards customers regarding GenAI initiatives and promoting cost-vs-benefits awareness.&#xA;Has the drop into the &lt;a href=&#34;https://it.wikipedia.org/wiki/Hype_cycle&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;trough of disillusionment&lt;/a&gt; already begun?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Langchain pt. 2 - Data Analysis through Agents</title>
       <link>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</link>
-      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate>
-      
+      <pubDate>Sun, 13 Aug 2023 19:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</guid>
-      <description>Intro In the previous article I gave a very brief overview of LangChain, describing its main concepts with some examples with unstructured data in pdf format.
-Following the same approach, in this article we will give a brief introduction to Agents and proceed by trying to answer an ambitious question:
-leveraging these new AI tools, can we carry out data analysis on our DB without any knowledge of SQL nor of the data model, simply starting from a text prompt in natural language?</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;In the previous article I gave a very brief overview of LangChain, describing its main concepts with some examples with unstructured data in pdf format.&lt;/p&gt;&#xA;&lt;p&gt;Following the same approach, in this article we will give a brief introduction to Agents and proceed by trying to answer an ambitious question:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;leveraging these new AI tools, can we carry out data analysis on our DB without any knowledge of SQL nor of the data model, simply starting from a text prompt in natural language?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>LLM - Experimenting LangChain - Part 1</title>
       <link>https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/</link>
-      <pubDate>Mon, 24 Jul 2023 17:45:02 +0200</pubDate>
-      
+      <pubDate>Mon, 24 Jul 2023 17:14:03 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/en/posts/2023-07-24-langchain-helloworld-pdf/</guid>
-      <description>Intro For those unfamiliar with it, LangChain is a framework for developing applications that make use of LLMs.
-As the name suggests, LangChain is based on the concept of LLM Chain, which combines 3 elements:
-Prompt Templates: they refer to a reproducible way to generate a prompt. Contains a text string (&amp;ldquo;the model&amp;rdquo;), which can accept a series of parameters from the end user and generates the definitive prompt which is passed as input to the model The language model (LLM): LangChain integrates with the most important providers (OpenAI, Cohere, Hugging Face, etc) Output Parsers: allow to extract structure data form from the answers returned by the linguistic model The framework has 2 very interesting features:</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;For those unfamiliar with it, LangChain is a framework for developing applications that make use of LLMs.&lt;/p&gt;&#xA;&lt;p&gt;As the name suggests, LangChain is based on the concept of LLM Chain, which combines 3 elements:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Templates&lt;/strong&gt;: they refer to a reproducible way to generate a prompt. Contains a text string (&amp;ldquo;the model&amp;rdquo;), which can accept a series of parameters from the end user and generates the definitive prompt which is passed as input to the model&lt;/li&gt;&#xA;&lt;li&gt;The &lt;strong&gt;language model (LLM)&lt;/strong&gt;: LangChain integrates with the most important providers (OpenAI, Cohere, Hugging Face, etc)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Output Parsers&lt;/strong&gt;: allow to extract structure data form from the answers returned by the linguistic model&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The framework has 2 very interesting features:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

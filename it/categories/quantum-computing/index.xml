@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantum Computing on Cdani&#39;s Blog</title>
     <link>https://c-daniele.github.io/it/categories/quantum-computing/</link>
     <description>Recent content in Quantum Computing on Cdani&#39;s Blog</description>
-    <image>
-      <title>Cdani&#39;s Blog</title>
-      <url>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://c-daniele.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/categories/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>carmelo.daniele@gmail.com (Me)</managingEditor>
+    <webMaster>carmelo.daniele@gmail.com (Me)</webMaster>
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0200</lastBuildDate>
+    <atom:link href="https://c-daniele.github.io/it/categories/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disuguaglianze di Bell: un esperimento di meccanica quantistica con Qiskit</title>
       <link>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</link>
-      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
       <guid>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</guid>
-      <description>1. Introduzione 1.1. Intro dell&amp;rsquo;intro Non so bene cosa sia questo articolo, un misto tra esperimento di coding, divulgazione e forse uno svago di qualcuno che in un&amp;rsquo;altra vita avrebbe voluto fare il fisico.
-Ce l&amp;rsquo;avevo nel cassetto da un po&amp;rsquo; di tempo, da quando avevo letto questo articolo di alcuni ricercatori del CERN, che spiega come sia possibile simulare un esperimento sulle disuguaglianze di Bell usando il framework Qibo.</description>
+      <description>&lt;h1 id=&#34;1-introduzione&#34;&gt;1. Introduzione&lt;/h1&gt;&#xA;&lt;h2 id=&#34;11-intro-dellintro&#34;&gt;1.1. Intro dell&amp;rsquo;intro&lt;/h2&gt;&#xA;&lt;p&gt;Non so bene cosa sia questo articolo, un misto tra esperimento di coding, divulgazione e forse uno svago di qualcuno che in un&amp;rsquo;altra vita avrebbe voluto fare il fisico.&lt;/p&gt;&#xA;&lt;p&gt;Ce l&amp;rsquo;avevo nel cassetto da un po&amp;rsquo; di tempo, da quando avevo letto &lt;a href=&#34;https://arxiv.org/html/2501.01434v1#abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;questo articolo&lt;/a&gt; di alcuni ricercatori del CERN, che spiega come sia possibile simulare un esperimento sulle disuguaglianze di Bell usando il framework Qibo.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
