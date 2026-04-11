@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://c-daniele.github.io/en/tags/agents/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/tags/agents/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/tags/agents/"
@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/tags/agents/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/categories/artificial-intelligence/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/categories/artificial-intelligence/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/categories/artificial-intelligence/"
@@ -20,7 +20,16 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/categories/artificial-intelligence/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/categories/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/posts/2026-04-11-beyond-vibe-coding/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="it"
+                        href="https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://c-daniele.github.io/en/posts/2026-04-11-beyond-vibe-coding/"
+                    /></url><url>
+            <loc>https://c-daniele.github.io/en/categories/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/categories/"
@@ -29,7 +38,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/categories/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/"
@@ -38,7 +47,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/tags/coding/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/tags/coding/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/tags/coding/"
@@ -47,7 +56,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/tags/coding/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/tags/genai/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/tags/genai/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/tags/genai/"
@@ -56,7 +65,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/tags/genai/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/posts/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/posts/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/posts/"
@@ -65,7 +74,25 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/posts/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/categories/software-development/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/tags/python/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="it"
+                        href="https://c-daniele.github.io/it/tags/python/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://c-daniele.github.io/en/tags/python/"
+                    /></url><url>
+            <loc>https://c-daniele.github.io/en/tags/rust/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="it"
+                        href="https://c-daniele.github.io/it/tags/rust/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://c-daniele.github.io/en/tags/rust/"
+                    /></url><url>
+            <loc>https://c-daniele.github.io/en/categories/software-development/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/categories/software-development/"
@@ -74,7 +101,7 @@
                     hreflang="en"
                     href="https://c-daniele.github.io/en/categories/software-development/"
                     /></url><url>
-            <loc>https://c-daniele.github.io/en/tags/</loc><lastmod>2026-02-14T00:00:00&#43;02:00</lastmod><xhtml:link
+            <loc>https://c-daniele.github.io/en/tags/</loc><lastmod>2026-04-11T00:00:00&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="it"
                         href="https://c-daniele.github.io/it/tags/"

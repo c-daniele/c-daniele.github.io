@@ -3,9 +3,19 @@
         <title>Cdani&#39;s Blog</title>
         <link>https://c-daniele.github.io/it/</link>
         <description>Cdani&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-IT</language><lastBuildDate>Sat, 14 Feb 2026 00:00:00 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-IT</language><lastBuildDate>Sat, 11 Apr 2026 00:00:00 &#43;0200</lastBuildDate>
             <atom:link href="https://c-daniele.github.io/it/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Oltre il vibe coding: una pipeline multi-agent per convertire codice</title>
+    <link>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</link>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 &#43;0200</pubDate>
+    <author>Me</author>
+    <guid>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</guid>
+    <description><![CDATA[<h2 id="intro">Intro</h2>
+<p>Qualche settimana fa ho fatto una prova molto semplice: ho preso <a href="https://github.com/msiemens/tinydb" target="_blank" rel="noopener noreffer ">TinyDB</a>, ho aperto un coding assistant e gli ho chiesto di fare la cosa più ovvia del mondo: <em>convert this to Rust</em>.</p>
+<p>Il risultato, a prima vista, non era neppure male. Il codice sembrava plausibile, compilava, passava qualche test e dava proprio quella sensazione pericolosa del &ldquo;direi che ci siamo&rdquo;. Poi però, appena ho iniziato a guardarlo da vicino, sono saltati fuori i problemi veri: un deadlock in <code>insert_multiple</code>, corruzione silenziosa integer-to-float nelle operazioni di update, un panic path su regex non valide e circa il 40% delle feature del package originale semplicemente sparite.</p>]]></description>
+</item>
+<item>
     <title>La transizione Sviluppatore --&gt; Progettista</title>
     <link>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0200</pubDate>
@@ -100,25 +110,6 @@ E&rsquo; già iniziata la discesa verso la <a href="https://it.wikipedia.org/wik
 <p>Seguendo lo stesso approccio, in questo articolo faremo una breve introduzione sugli Agenti e procederemo provando a rispondere ad una domanda ambiziosa:</p>
 <blockquote>
 <p>è possibile, tramite l&rsquo;AI, fare analisi sui dati presenti in un DB senza alcuna conoscenza di SQL né tantomeno del modello dati, a partire semplicemente da un prompt testuale in lingua naturale?</p>]]></description>
-</item>
-<item>
-    <title>LLM - Esperimenti con LangChain - Parte 1</title>
-    <link>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</link>
-    <pubDate>Mon, 24 Jul 2023 17:45:02 &#43;0200</pubDate>
-    <author>Me</author>
-    <guid>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</guid>
-    <description><![CDATA[<h2 id="intro">Intro</h2>
-<p>Per chi non lo conoscesse, LangChain è un framework per lo sviluppo di applicazioni che fanno uso di LLMs.</p>
-<p>Come si evince dal nome stesso, LangChain si basa sul concetto di Catena LLM, la quale combina 3 elementi:</p>
-<ul>
-<li>I <strong>Prompt Templates</strong>: fanno riferimento ad un modo riproducibile per generare un prompt. Contiene una stringa di testo (&ldquo;il modello&rdquo;), che può accettare una serie di parametri dall&rsquo;utente finale e genera il prompt definitivo che viene passato in input al modello</li>
-<li>Il <strong>modello linguistico (LLM)</strong>: in particolare, LangChain si integra con i provider più importanti (OpenAI, Cohere, Hugging Face, etc)</li>
-<li>Gli <strong>Output Parsers</strong>: consentono di estrarre dati in forma strutturata dalle risposte restituite dal modello linguistico</li>
-</ul>
-<hr>
-<p>I Prompt Templates: fanno riferimento ad un modo riproducibile per generare un prompt. Contiene una stringa di testo (&ldquo;il modello&rdquo;), che può accettare una serie di parametri dall&rsquo;utente finale e genera il prompt definitivo che viene passato in input al modello
-Il modello linguistico (LLM): in particolare, LangChain si integra con i provider più importanti (OpenAI, Cohere, Hugging Face, etc)
-Gli Output Parsers: consentono di estrarre dati in forma strutturata dalle risposte restituite dal modello linguistico</p>]]></description>
 </item>
 </channel>
 </rss>

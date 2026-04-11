@@ -6,27 +6,41 @@
     <description>Recent content in Tags on Cdani&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://c-daniele.github.io/it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agents</title>
       <link>https://c-daniele.github.io/it/tags/agents/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
       <guid>https://c-daniele.github.io/it/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
       <link>https://c-daniele.github.io/it/tags/coding/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
       <guid>https://c-daniele.github.io/it/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>GenAI</title>
       <link>https://c-daniele.github.io/it/tags/genai/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
       <guid>https://c-daniele.github.io/it/tags/genai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://c-daniele.github.io/it/tags/python/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      <guid>https://c-daniele.github.io/it/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://c-daniele.github.io/it/tags/rust/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      <guid>https://c-daniele.github.io/it/tags/rust/</guid>
       <description></description>
     </item>
     <item>

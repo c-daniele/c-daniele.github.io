@@ -6,8 +6,15 @@
     <description>Recent content in Coding on Cdani&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://c-daniele.github.io/en/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond vibe coding: a multi-agent pipeline for code conversion</title>
+      <link>https://c-daniele.github.io/en/posts/2026-04-11-beyond-vibe-coding/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      <guid>https://c-daniele.github.io/en/posts/2026-04-11-beyond-vibe-coding/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;A few weeks ago I ran a very simple test: I took &lt;a href=&#34;https://github.com/msiemens/tinydb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;TinyDB&lt;/a&gt;, opened a coding assistant, and asked it the most obvious thing in the world: &lt;em&gt;convert this to Rust&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At first glance, the result did not even look that bad. The code looked plausible, it compiled, it passed a few tests, and it gave off that dangerous feeling of &amp;ldquo;I think we&amp;rsquo;re basically there.&amp;rdquo; But as soon as I started looking closely, the real problems surfaced: a deadlock in &lt;code&gt;insert_multiple&lt;/code&gt;, silent integer-to-float corruption in update operations, a panic path on invalid regex, and roughly 40% of the original package features simply gone.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Developer --&gt; Designer switch</title>
       <link>https://c-daniele.github.io/en/posts/2026-02-14-intro-spec-driven-development/</link>

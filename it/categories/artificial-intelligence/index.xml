@@ -6,8 +6,15 @@
     <description>Recent content in Artificial Intelligence on Cdani&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-IT</language>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://c-daniele.github.io/it/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oltre il vibe coding: una pipeline multi-agent per convertire codice</title>
+      <link>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
+      <guid>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Qualche settimana fa ho fatto una prova molto semplice: ho preso &lt;a href=&#34;https://github.com/msiemens/tinydb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;TinyDB&lt;/a&gt;, ho aperto un coding assistant e gli ho chiesto di fare la cosa più ovvia del mondo: &lt;em&gt;convert this to Rust&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Il risultato, a prima vista, non era neppure male. Il codice sembrava plausibile, compilava, passava qualche test e dava proprio quella sensazione pericolosa del &amp;ldquo;direi che ci siamo&amp;rdquo;. Poi però, appena ho iniziato a guardarlo da vicino, sono saltati fuori i problemi veri: un deadlock in &lt;code&gt;insert_multiple&lt;/code&gt;, corruzione silenziosa integer-to-float nelle operazioni di update, un panic path su regex non valide e circa il 40% delle feature del package originale semplicemente sparite.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>La transizione Sviluppatore --&gt; Progettista</title>
       <link>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</link>

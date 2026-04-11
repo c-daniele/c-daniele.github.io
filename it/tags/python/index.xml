@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Cdani&#39;s Blog</title>
-    <link>http://localhost:1313/it/tags/python/</link>
+    <link>https://c-daniele.github.io/it/tags/python/</link>
     <description>Recent content in Python on Cdani&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-IT</language>
     <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/it/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://c-daniele.github.io/it/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oltre il vibe coding: una pipeline multi-agent per convertire codice</title>
-      <link>http://localhost:1313/it/posts/2026-04-11-beyond-vibe-coding/</link>
+      <link>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</link>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/it/posts/2026-04-11-beyond-vibe-coding/</guid>
+      <guid>https://c-daniele.github.io/it/posts/2026-04-11-beyond-vibe-coding/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Qualche settimana fa ho fatto una prova molto semplice: ho preso &lt;a href=&#34;https://github.com/msiemens/tinydb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;TinyDB&lt;/a&gt;, ho aperto un coding assistant e gli ho chiesto di fare la cosa più ovvia del mondo: &lt;em&gt;convert this to Rust&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Il risultato, a prima vista, non era neppure male. Il codice sembrava plausibile, compilava, passava qualche test e dava proprio quella sensazione pericolosa del &amp;ldquo;direi che ci siamo&amp;rdquo;. Poi però, appena ho iniziato a guardarlo da vicino, sono saltati fuori i problemi veri: un deadlock in &lt;code&gt;insert_multiple&lt;/code&gt;, corruzione silenziosa integer-to-float nelle operazioni di update, un panic path su regex non valide e circa il 40% delle feature del package originale semplicemente sparite.&lt;/p&gt;</description>
     </item>
   </channel>
