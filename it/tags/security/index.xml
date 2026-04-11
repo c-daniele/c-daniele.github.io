@@ -6,14 +6,12 @@
     <description>Recent content in Security on Cdani&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-IT</language>
-    <managingEditor>carmelo.daniele@gmail.com (Me)</managingEditor>
-    <webMaster>carmelo.daniele@gmail.com (Me)</webMaster>
     <lastBuildDate>Thu, 15 May 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://c-daniele.github.io/it/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Policy Puppetry Prompt Injection</title>
       <link>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</link>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate><author>carmelo.daniele@gmail.com (Me)</author>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0200</pubDate>
       <guid>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</guid>
       <description>&lt;h1 id=&#34;policy-puppetry-prompt-injection&#34;&gt;Policy Puppetry Prompt Injection&lt;/h1&gt;&#xA;&lt;p&gt;Qualche giorno fa ho fatto qualche esperimento con alcune tecniche di Jailbraking, che condivido nel &lt;a href=&#34;https://github.com/c-daniele/policy-puppetry&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;repo&lt;/a&gt;.&#xA;Sono partito da un &lt;a href=&#34;https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;articolo di HiddenLayer&lt;/a&gt;, di qualche settimana fa, in cui il team di ricerca ha pubblicato un articolo che descrive una tecnica piuttosto creativa e ingegnosa di &lt;strong&gt;jailbreaking&lt;/strong&gt;, per bypassare i safety guardails e l&amp;rsquo;allineamento dei modelli di frontiera.&#xA;La tecnica sembra essere &lt;strong&gt;universale&lt;/strong&gt; ed applicabile con un &lt;strong&gt;singolo prompt&lt;/strong&gt; a più modelli ed è in grado di mostrare contenuti tipicamente non safety o addirittura mostrare porzioni del system prompt nativo.&lt;/p&gt;</description>
     </item>

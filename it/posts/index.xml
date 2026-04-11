@@ -3,12 +3,11 @@
         <title>Tutti Articoli - Cdani&#39;s Blog</title>
         <link>https://c-daniele.github.io/it/posts/</link>
         <description>Tutti Articoli | Cdani&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-IT</language><managingEditor>carmelo.daniele@gmail.com (Me)</managingEditor>
-            <webMaster>carmelo.daniele@gmail.com (Me)</webMaster><lastBuildDate>Sat, 14 Feb 2026 00:00:00 &#43;0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-IT</language><lastBuildDate>Sat, 14 Feb 2026 00:00:00 &#43;0200</lastBuildDate><atom:link href="https://c-daniele.github.io/it/posts/" rel="self" type="application/rss+xml" /><item>
     <title>La transizione Sviluppatore --&gt; Progettista</title>
     <link>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2026-02-14-intro-spec-driven-development/</guid>
     <description><![CDATA[<h2 id="intro">Intro</h2>
 <p>Qualche mese fa ho dovuto mettere mano a un&rsquo;applicazione complessa su AWS: frontend React su Amplify, diverse Lambda, Bedrock con AgentCore, Knowledge Bases e Prompt Management. Avevo fretta, e la tentazione era fortissima: aprire Claude Code, buttargli dentro un prompt generico e sperare che &ldquo;capisse&rdquo;. Invece ho fatto una cosa diversa — ho scritto specifiche, le ho revisionate, ci ho perso una giornata intera — e quel giorno mi è sembrato di non aver combinato nulla. Due giorni dopo avevo un&rsquo;applicazione funzionante. Se avessi improvvisato, starei probabilmente ancora debuggando.</p>]]></description>
@@ -17,7 +16,7 @@
     <title>Perché LangChain è ancora il miglior framework per la GenAI</title>
     <link>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</link>
     <pubDate>Mon, 10 Nov 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-11-10-genai-frameworks-update/</guid>
     <description><![CDATA[<h1 id="langchain-10">Langchain 1.0</h1>
 <p>Il 22 ottobre 2025, <a href="https://changelog.langchain.com/announcements/langchain-1-0-now-generally-available" target="_blank" rel="noopener noreffer ">LangChain ha raggiunto finalmente la versione 1.0</a>. Dopo ben tre anni, questa milestone rappresenta qualcosa di molto diverso sia rispetto alle versioni precedenti del framework, sia rispetto agli altri competitor , che nel frattempo sono diventati parecchi, creando anche un po&rsquo; di confusione e smarrimento per chi si trova a definire l&rsquo;architettura software di un nuovo progetto.</p>
@@ -27,7 +26,7 @@
     <title>Disuguaglianze di Bell: un esperimento di meccanica quantistica con Qiskit</title>
     <link>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</link>
     <pubDate>Sun, 12 Oct 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-10-11-bells-inequalities/</guid>
     <description><![CDATA[<h1 id="1-introduzione">1. Introduzione</h1>
 <h2 id="11-intro-dellintro">1.1. Intro dell&rsquo;intro</h2>
@@ -38,7 +37,7 @@
     <title>AlphaAgents: Implementazione Multi-Agent A2A per Analisi Finanziaria Collaborativa</title>
     <link>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</link>
     <pubDate>Sun, 31 Aug 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-08-31-alphaagents-a2a/</guid>
     <description><![CDATA[<h1 id="1-introduzione">1. Introduzione</h1>
 <p>La quantità di framework che sta nascendo per lo sviluppo di applicazioni di GenAI è incredibile e a mio avviso inizia ad essere pure eccessiva.
@@ -48,7 +47,7 @@ Ogniqualvolta salta fuori un nuovo framework, mi sembra che faccia più o meno l
     <title>Agent-Reg: Costruire un Agent Registry aperto per il Protocollo A2A</title>
     <link>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</link>
     <pubDate>Fri, 15 Aug 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-08-15-agent-reg-for-a2a/</guid>
     <description><![CDATA[<h1 id="introduzione">Introduzione</h1>
 <p>Tra una cosa e l&rsquo;altra, in queste incandescenti giornate di agosto, ne ho approfittato per leggere bene la specifica del protocollo A2A di Google e provare a capire come utilizzarne i concetti per disegnare una un&rsquo;architettura enterprise di Agenti, possibilmente slegata da vincoli di piattaforma tecnologica.</p>
@@ -59,7 +58,7 @@ Ogniqualvolta salta fuori un nuovo framework, mi sembra che faccia più o meno l
     <title>Oltre il RAG: Come analizzare efficacemente un file Excel tramite un LLM</title>
     <link>https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</link>
     <pubDate>Sat, 05 Jul 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-07-05-advanced-tecnique-for-analyzing-excel-files-with-llms/</guid>
     <description><![CDATA[<h1 id="introduzione">Introduzione</h1>
 <p>Come sviluppatori AI, cerchiamo sempre modi migliori per accedere ai dati e analizzarli in linguaggio naturale. Sebbene la Retrieval-Augmented Generation (RAG) abbia rivoluzionato il modo in cui interagiamo con documenti testuali non strutturati, <strong>essa mostra dei limiti</strong> quando si prova ad adottare le medesime tecniche sui dati strutturati.</p>
@@ -69,7 +68,7 @@ Ogniqualvolta salta fuori un nuovo framework, mi sembra che faccia più o meno l
     <title>Policy Puppetry Prompt Injection</title>
     <link>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</link>
     <pubDate>Thu, 15 May 2025 00:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2025-05-15-policy-puppetry/</guid>
     <description><![CDATA[<h1 id="policy-puppetry-prompt-injection">Policy Puppetry Prompt Injection</h1>
 <p>Qualche giorno fa ho fatto qualche esperimento con alcune tecniche di Jailbraking, che condivido nel <a href="https://github.com/c-daniele/policy-puppetry" target="_blank" rel="noopener noreffer ">repo</a>.
@@ -80,7 +79,7 @@ La tecnica sembra essere <strong>universale</strong> ed applicabile con un <stro
     <title>Langchain pt. 3 - Come invocare API Rest in linguaggio naturale</title>
     <link>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</link>
     <pubDate>Sat, 20 Apr 2024 19:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2024-04-20-langchain-api/</guid>
     <description><![CDATA[<h2 id="intro">Intro</h2>
 <p>L&rsquo;anno scorso, Gartner ha inserito la Generative AI nella fase di picco di aspettative all&rsquo;interno del suo modello di <a href="https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2023-gartner-hype-cycle" target="_blank" rel="noopener noreffer ">Hype Cycle</a> per il mondo della AI.</p>
@@ -92,7 +91,7 @@ E&rsquo; già iniziata la discesa verso la <a href="https://it.wikipedia.org/wik
     <title>Langchain pt. 2 - Analisi dati tramite Agenti</title>
     <link>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</link>
     <pubDate>Sun, 13 Aug 2023 19:00:00 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2023-08-13-langchain-agents/</guid>
     <description><![CDATA[<h2 id="intro">Intro</h2>
 <p>Nel precedente articolo ho fatto una brevissima panoramica di LangChain, descrivendone i concetti principali e raccontando un esempio di caso d&rsquo;uso con dati non strutturati in formato pdf.</p>
@@ -104,7 +103,7 @@ E&rsquo; già iniziata la discesa verso la <a href="https://it.wikipedia.org/wik
     <title>LLM - Esperimenti con LangChain - Parte 1</title>
     <link>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</link>
     <pubDate>Mon, 24 Jul 2023 17:45:02 &#43;0200</pubDate>
-    <author>carmelo.daniele@gmail.com (Me)</author>
+    <author>Me</author>
     <guid>https://c-daniele.github.io/it/posts/2023-07-24-langchain-helloworld-pdf/</guid>
     <description><![CDATA[<h2 id="intro">Intro</h2>
 <p>Per chi non lo conoscesse, LangChain è un framework per lo sviluppo di applicazioni che fanno uso di LLMs.</p>
