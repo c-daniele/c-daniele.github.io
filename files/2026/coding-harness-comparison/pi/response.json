@@ -1,0 +1,47 @@
+{
+  "id": "REDACTED-RESPONSE-UUID",
+  "model": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "usage": {
+    "total_tokens": 2772,
+    "prompt_tokens": 2768,
+    "completion_tokens": 4,
+    "prompt_tokens_details": {
+      "text_tokens": 2768,
+      "audio_tokens": null,
+      "image_tokens": null,
+      "video_tokens": null,
+      "cached_tokens": 0,
+      "cache_creation_tokens": 0,
+      "cache_creation_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      }
+    },
+    "cache_read_input_tokens": 0,
+    "completion_tokens_details": {
+      "text_tokens": 4,
+      "audio_tokens": null,
+      "image_tokens": null,
+      "video_tokens": null,
+      "reasoning_tokens": 0,
+      "accepted_prediction_tokens": null,
+      "rejected_prediction_tokens": null
+    },
+    "cache_creation_input_tokens": 0
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hello",
+        "tool_calls": null,
+        "function_call": null
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1779042609,
+  "system_fingerprint": null
+}

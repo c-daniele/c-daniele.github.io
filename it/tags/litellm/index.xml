@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LiteLLM on Cdani&#39;s Blog</title>
+    <link>http://localhost:1313/it/tags/litellm/</link>
+    <description>Recent content in LiteLLM on Cdani&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-IT</language>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/it/tags/litellm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cosa c&#39;è davvero dentro un coding agent: Claude Code vs OpenCode vs pi</title>
+      <link>http://localhost:1313/it/posts/2026-05-18-coding-harness-comparison/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/it/posts/2026-05-18-coding-harness-comparison/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Ultimamente vedo girare sempre la stessa discussione sulla mia timeline: Claude Code è &amp;ldquo;bloated&amp;rdquo;, &amp;ldquo;spreca token&amp;rdquo;, e una harness più snella come &lt;a href=&#34;https://github.com/earendil-works/pi-coding-agent&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pi&lt;/a&gt; sarebbe la risposta ovvia. Poi arriva qualcun altro che ribatte che un system prompt da 28k token è il prezzo da pagare per un coding agent serio, e il thread degenera nelle solite vibes.&lt;/p&gt;&#xA;&lt;p&gt;Volevo guardare la cosa da un&amp;rsquo;angolazione diversa: &lt;em&gt;cosa viene effettivamente inviato al modello al primo turno?&lt;/em&gt; Non benchmark, non claim sulla produttività — proprio il payload JSON che arriva al gateway LLM quando dici &amp;ldquo;hello&amp;rdquo; a ciascun agente.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

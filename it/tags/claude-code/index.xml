@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claude Code on Cdani&#39;s Blog</title>
+    <link>http://localhost:1313/it/tags/claude-code/</link>
+    <description>Recent content in Claude Code on Cdani&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-IT</language>
+    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/it/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quanto costa davvero un &#39;hi&#39;: Claude Code, OpenCode e pi a confronto sul filo</title>
+      <link>http://localhost:1313/it/posts/2026-05-17-coding-harness-comparison/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/it/posts/2026-05-17-coding-harness-comparison/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Nelle ultime settimane mi sono ritrovato a leggere le stesse due lamentele, postate da persone diverse su piattaforme diverse, quasi parola per parola: Claude Code &amp;ldquo;brucia token come se non ci fosse un domani&amp;rdquo;, e c&amp;rsquo;è questo nuovo tool leggero chiamato &lt;em&gt;pi&lt;/em&gt; che &amp;ldquo;funziona alla grande&amp;rdquo; con una frazione del contesto. Entrambe le affermazioni sono di solito fatte senza numeri.&lt;/p&gt;&#xA;&lt;p&gt;Ho fatto allora la cosa più noiosa che mi è venuta in mente. Ho creato un progetto dummy da una riga, ho puntato tre coding agent diversi su quello, ho scritto &lt;code&gt;hi&lt;/code&gt; e ho catturato ogni byte uscente verso il modello. Stesso modello in tutti e tre i run (&lt;a href=&#34;https://www.anthropic.com/claude/haiku&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Claude Haiku 4.5 su Bedrock&lt;/a&gt;), stesso gateway (&lt;a href=&#34;https://github.com/BerriAI/litellm&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;LiteLLM&lt;/a&gt; con logging completo di richieste e risposte), stesso prompt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,282 @@
+{
+  "model": "claude-haiku",
+  "tools": [
+    {
+      "name": "read",
+      "description": "Read the contents of a file. Supports text files and images (jpg, png, gif, webp). Images are sent as attachments. For text files, output is truncated to 2000 lines or 50KB (whichever is hit first). Use offset/limit for large files. When you need the full file, continue with offset until complete.",
+      "input_schema": {
+        "type": "object",
+        "required": [
+          "path"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to the file to read (relative or absolute)"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Maximum number of lines to read"
+          },
+          "offset": {
+            "type": "number",
+            "description": "Line number to start reading from (1-indexed)"
+          }
+        }
+      }
+    },
+    {
+      "name": "bash",
+      "description": "Execute a bash command in the current working directory. Returns stdout and stderr. Output is truncated to last 2000 lines or 50KB (whichever is hit first). If truncated, full output is saved to a temp file. Optionally provide a timeout in seconds.",
+      "input_schema": {
+        "type": "object",
+        "required": [
+          "command"
+        ],
+        "properties": {
+          "command": {
+            "type": "string",
+            "description": "Bash command to execute"
+          },
+          "timeout": {
+            "type": "number",
+            "description": "Timeout in seconds (optional, no default timeout)"
+          }
+        }
+      }
+    },
+    {
+      "name": "edit",
+      "description": "Edit a single file using exact text replacement. Every edits[].oldText must match a unique, non-overlapping region of the original file. If two changes affect the same block or nearby lines, merge them into one edit instead of emitting overlapping edits. Do not include large unchanged regions just to connect distant changes.",
+      "input_schema": {
+        "type": "object",
+        "required": [
+          "path",
+          "edits"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to the file to edit (relative or absolute)"
+          },
+          "edits": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "oldText",
+                "newText"
+              ],
+              "properties": {
+                "newText": {
+                  "type": "string",
+                  "description": "Replacement text for this targeted edit."
+                },
+                "oldText": {
+                  "type": "string",
+                  "description": "Exact text for one targeted replacement. It must be unique in the original file and must not overlap with any other edits[].oldText in the same call."
+                }
+              },
+              "additionalProperties": false
+            },
+            "description": "One or more targeted replacements. Each edit is matched against the original file, not incrementally. Do not include overlapping or nested edits. If two changes touch the same block or nearby lines, merge them into one edit instead."
+          }
+        }
+      }
+    },
+    {
+      "name": "write",
+      "description": "Write content to a file. Creates the file if it doesn't exist, overwrites if it does. Automatically creates parent directories.",
+      "input_schema": {
+        "type": "object",
+        "required": [
+          "path",
+          "content"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to the file to write (relative or absolute)"
+          },
+          "content": {
+            "type": "string",
+            "description": "Content to write to the file"
+          }
+        }
+      }
+    },
+    {
+      "name": "mcp",
+      "description": "MCP gateway - connect to MCP servers and call their tools. Non-MCP Pi tools should be called directly, not through mcp.\n\nServers: backlog (24 tools), context7 (2 tools), perplexity (4 tools), markitdown (1 tools), drawio (3 tools), excalidraw (6 tools), aws-api (2 tools), aws-docs (4 tools)\n\nUsage:\n  mcp({ })                              → Show server status\n  mcp({ server: \"name\" })               → List tools from server\n  mcp({ search: \"query\" })              → Search MCP tools by name/description\n  mcp({ describe: \"tool_name\" })        → Show tool details and parameters\n  mcp({ connect: \"server-name\" })       → Connect to a server and refresh metadata\n  mcp({ tool: \"name\", args: '{\"key\": \"value\"}' })    → Call a tool (args is JSON string)\n  mcp({ action: \"ui-messages\" })        → Retrieve accumulated messages from completed UI sessions\n\nMode: tool (call) > connect > describe > search > server (list) > action > nothing (status)",
+      "input_schema": {
+        "type": "object",
+        "required": [
+
+        ],
+        "properties": {
+          "args": {
+            "type": "string",
+            "description": "Arguments as JSON string (e.g., '{\"key\": \"value\"}')"
+          },
+          "tool": {
+            "type": "string",
+            "description": "Tool name to call (e.g., 'xcodebuild_list_sims')"
+          },
+          "regex": {
+            "type": "boolean",
+            "description": "Treat search as regex (default: substring match)"
+          },
+          "action": {
+            "type": "string",
+            "description": "Action: 'ui-messages' to retrieve prompts/intents from UI sessions"
+          },
+          "search": {
+            "type": "string",
+            "description": "Search tools by name/description"
+          },
+          "server": {
+            "type": "string",
+            "description": "Filter to specific server (also disambiguates tool calls)"
+          },
+          "connect": {
+            "type": "string",
+            "description": "Server name to connect (lazy connect + metadata refresh)"
+          },
+          "describe": {
+            "type": "string",
+            "description": "Tool name to describe (shows parameters)"
+          },
+          "includeSchemas": {
+            "type": "boolean",
+            "description": "Include parameter schemas in search results (default: true)"
+          }
+        }
+      },
+      "cache_control": {
+        "type": "ephemeral"
+      }
+    }
+  ],
+  "stream": true,
+  "system": [
+    {
+      "text": "You are an expert coding assistant operating inside pi, a coding agent harness. You help users by reading files, executing commands, editing code, and writing new files.\n\nAvailable tools:\n- read: Read file contents\n- bash: Execute bash commands (ls, grep, find, etc.)\n- edit: Make precise file edits with exact text replacement, including multiple disjoint edits in one call\n- write: Create or overwrite files\n- mcp: MCP gateway - connect to MCP servers and call their tools\n\nIn addition to the tools above, you may have access to other custom tools depending on the project.\n\nGuidelines:\n- Use bash for file operations like ls, rg, find\n- Use read to examine files instead of cat or sed.\n- Use edit for precise changes (edits[].oldText must match exactly)\n- When changing multiple separate locations in one file, use one edit call with multiple entries in edits[] instead of multiple edit calls\n- Each edits[].oldText is matched against the original file, not after earlier edits are applied. Do not emit overlapping or nested edits. Merge nearby changes into one edit.\n- Keep edits[].oldText as small as possible while still being unique in the file. Do not pad with large unchanged regions.\n- Use write only for new files or complete rewrites.\n- Be concise in your responses\n- Show file paths clearly when working with files\n\nPi documentation (read only when the user asks about pi itself, its SDK, extensions, themes, skills, or TUI):\n- Main documentation: /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/README.md\n- Additional docs: /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/docs\n- Examples: /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/examples (extensions, custom tools, SDK)\n- When asked about: extensions (docs/extensions.md, examples/extensions/), themes (docs/themes.md), skills (docs/skills.md), prompt templates (docs/prompt-templates.md), TUI components (docs/tui.md), keybindings (docs/keybindings.md), SDK integrations (docs/sdk.md), custom providers (docs/custom-provider.md), adding models (docs/models.md), pi packages (docs/packages.md)\n- When working on pi topics, read the docs and examples, and follow .md cross-references before implementing\n- Always read pi .md files completely and follow links to related docs (e.g., tui.md for TUI API details)\n\n# Project Context\n\nProject-specific instructions and guidelines:\n\n## /Users/USER/myRepos/harness-assmt/AGENTS.md\n\nThis is an example project to make some experiment with coding agents. Key tech stack:\n - python (uv)\n - shell (zsh)\n - aws cli\n\n\n\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>find-skills</name>\n    <description>Helps users discover and install agent skills when they ask questions like &quot;how do I do X&quot;, &quot;find a skill for X&quot;, &quot;is there a skill that can...&quot;, or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.</description>\n    <location>/Users/USER/.pi/agent/skills/find-skills/SKILL.md</location>\n  </skill>\n</available_skills>\nCurrent date: 2026-05-17\nCurrent working directory: /Users/USER/myRepos/harness-assmt",
+      "type": "text",
+      "cache_control": {
+        "type": "ephemeral"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "text": "just say \"hello\", nothing else",
+          "type": "text",
+          "cache_control": {
+            "type": "ephemeral"
+          }
+        }
+      ]
+    }
+  ],
+  "thinking": {
+    "type": "disabled"
+  },
+  "max_tokens": 32000,
+  "litellm_metadata": {
+    "headers": {
+    },
+    "agent_id": null,
+    "api_base": null,
+    "endpoint": "http://localhost:4000/v1/messages",
+    "deployment": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "model_info": {
+      "id": "REDACTED_HASH",
+      "db_model": false
+    },
+    "user_agent": "Anthropic/JS 0.91.1",
+    "max_retries": 2,
+    "model_group": "claude-haiku",
+    "user_api_key": "REDACTED_API_KEY_HASH",
+    "caching_groups": null,
+    "model_group_size": 1,
+    "attempted_retries": 0,
+    "model_group_alias": null,
+    "user_api_key_auth": "REDACTED_API_KEY_AUTH",
+    "user_api_key_hash": "REDACTED_API_KEY_HASH",
+    "queue_time_seconds": 0.0004372596740722656,
+    "user_api_key_alias": "picode",
+    "user_api_key_spend": 0.04913892499999999,
+    "litellm_api_version": "1.84.0",
+    "user_api_key_org_id": null,
+    "requester_ip_address": "REDACTED_IP",
+    "user_api_key_team_id": "REDACTED-TEAM-UUID",
+    "user_api_key_user_id": "REDACTED-USER-UUID",
+    "deployment_model_name": "claude-haiku",
+    "user_api_key_metadata": {
+    },
+    "user_api_key_org_alias": null,
+    "user_api_key_max_budget": null,
+    "user_api_key_project_id": null,
+    "user_api_key_team_alias": "CodingAgents",
+    "user_api_key_team_spend": 0.50620977,
+    "user_api_key_user_email": "pi",
+    "user_api_key_user_spend": 0.04913892499999999,
+    "litellm_parent_otel_span": null,
+    "user_api_key_end_user_id": null,
+    "user_api_key_auth_metadata": {
+    },
+    "user_api_key_project_alias": null,
+    "user_api_key_request_route": "/v1/messages",
+    "user_api_key_team_metadata": {
+    },
+    "global_max_parallel_requests": null,
+    "user_api_end_user_max_budget": null,
+    "user_api_key_budget_reset_at": null,
+    "user_api_key_team_max_budget": null,
+    "user_api_key_user_max_budget": null,
+    "user_api_key_model_max_budget": {
+    },
+    "user_api_key_object_permission_id": null,
+    "user_api_key_end_user_model_max_budget": null,
+    "user_api_key_team_object_permission_id": null
+  },
+  "proxy_server_request": {
+    "url": "http://localhost:4000/v1/messages",
+    "body": {
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:4000",
+      "accept": "application/json",
+      "connection": "keep-alive",
+      "user-agent": "Anthropic/JS 0.91.1",
+      "content-type": "application/json",
+      "anthropic-beta": "fine-grained-tool-streaming-2025-05-14,interleaved-thinking-2025-05-14",
+      "content-length": "8638",
+      "sec-fetch-mode": "cors",
+      "x-stainless-os": "MacOS",
+      "accept-encoding": "gzip, deflate",
+      "accept-language": "*",
+      "x-stainless-arch": "arm64",
+      "x-stainless-lang": "js",
+      "anthropic-version": "2023-06-01",
+      "x-stainless-runtime": "node",
+      "x-stainless-timeout": "600",
+      "x-stainless-retry-count": "0",
+      "x-stainless-package-version": "0.91.1",
+      "x-stainless-runtime-version": "v26.0.0",
+      "anthropic-dangerous-direct-browser-access": "true"
+    },
+    "arrival_time": 1779042608.1148255
+  },
+  "provider_specific_header": {
+    "extra_headers": {
+      "anthropic-beta": "fine-grained-tool-streaming-2025-05-14,interleaved-thinking-2025-05-14",
+      "anthropic-version": "2023-06-01"
+    },
+    "custom_llm_provider": "anthropic,bedrock,vertex_ai"
+  }
+}

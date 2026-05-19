@@ -3,7 +3,17 @@
         <title>All Posts - Cdani&#39;s Blog</title>
         <link>https://c-daniele.github.io/en/posts/</link>
         <description>All Posts | Cdani&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 11 Apr 2026 00:00:00 &#43;0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 18 May 2026 00:00:00 &#43;0200</lastBuildDate><atom:link href="https://c-daniele.github.io/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Claude Code, OpenCode, and π (pi): anatomy of a trivial request</title>
+    <link>https://c-daniele.github.io/en/posts/2026-05-18-coding-harness-comparison/</link>
+    <pubDate>Mon, 18 May 2026 00:00:00 &#43;0200</pubDate>
+    <author>Me</author>
+    <guid>https://c-daniele.github.io/en/posts/2026-05-18-coding-harness-comparison/</guid>
+    <description><![CDATA[<h2 id="intro">Intro</h2>
+<p>Anyone following the evolution of coding agents closely has probably heard about <a href="https://pi.dev/" target="_blank" rel="noopener noreffer ">pi</a>, the minimalist harness that became popular in part because it is one of the components behind OpenClaw.</p>
+<p>One of the arguments in favor of pi&rsquo;s minimalism is the contrast with the supposed &ldquo;heaviness&rdquo; of Claude Code, meaning an excessive use of tokens to carry out even trivial tasks. In that debate, pi and other harnesses built around the same philosophy are carving out some space.</p>]]></description>
+</item>
+<item>
     <title>Beyond vibe coding: a multi-agent pipeline for code conversion</title>
     <link>https://c-daniele.github.io/en/posts/2026-04-11-beyond-vibe-coding/</link>
     <pubDate>Sat, 11 Apr 2026 00:00:00 &#43;0200</pubDate>
@@ -98,18 +108,6 @@ The technique appears to be <strong>universal</strong> and applicable with a <st
 <p>Recently, big tech leaders <a href="https://www.wired.com/story/amazons-cloud-boss-selipsky-generative-ai-hype/" target="_blank" rel="noopener noreffer ">compared the hype around GenAI to the <em>dotcom</em> bubble</a>.
 Furthermore, according to some <a href="https://www.theinformation.com/articles/generative-ai-providers-quietly-tamp-down-expectations?ref=wheresyoured.at" target="_blank" rel="noopener noreffer ">rumors</a>, the main Cloud Providers are even giving instructions to their Sales Teams to slow down the enthusiasm towards customers regarding GenAI initiatives and promoting cost-vs-benefits awareness.
 Has the drop into the <a href="https://it.wikipedia.org/wiki/Hype_cycle" target="_blank" rel="noopener noreffer ">trough of disillusionment</a> already begun?</p>]]></description>
-</item>
-<item>
-    <title>Langchain pt. 2 - Data Analysis through Agents</title>
-    <link>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</link>
-    <pubDate>Sun, 13 Aug 2023 19:00:00 &#43;0200</pubDate>
-    <author>Me</author>
-    <guid>https://c-daniele.github.io/en/posts/2023-08-13-langchain-agents/</guid>
-    <description><![CDATA[<h2 id="intro">Intro</h2>
-<p>In the previous article I gave a very brief overview of LangChain, describing its main concepts with some examples with unstructured data in pdf format.</p>
-<p>Following the same approach, in this article we will give a brief introduction to Agents and proceed by trying to answer an ambitious question:</p>
-<blockquote>
-<p>leveraging these new AI tools, can we carry out data analysis on our DB without any knowledge of SQL nor of the data model, simply starting from a text prompt in natural language?</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claude Code on Cdani&#39;s Blog</title>
+    <link>http://localhost:1313/en/tags/claude-code/</link>
+    <description>Recent content in Claude Code on Cdani&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What &#39;hi&#39; really costs: comparing Claude Code, OpenCode, and pi at the wire</title>
+      <link>http://localhost:1313/en/posts/2026-05-17-coding-harness-comparison/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/en/posts/2026-05-17-coding-harness-comparison/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;A few weeks ago I kept reading the same two complaints, posted by different people on different platforms, almost word for word: Claude Code &amp;ldquo;burns tokens like there is no tomorrow&amp;rdquo;, and there is this new lightweight tool called &lt;em&gt;pi&lt;/em&gt; that &amp;ldquo;just works&amp;rdquo; with a fraction of the context. Both claims are usually made without numbers.&lt;/p&gt;&#xA;&lt;p&gt;So I did the most boring thing I could think of. I created a one-line dummy project, pointed three different coding agents at it, typed &lt;code&gt;hi&lt;/code&gt;, and then captured every byte that left for the model. Same model in all three runs (&lt;a href=&#34;https://www.anthropic.com/claude/haiku&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Claude Haiku 4.5 on Bedrock&lt;/a&gt;), same gateway (&lt;a href=&#34;https://github.com/BerriAI/litellm&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;LiteLLM&lt;/a&gt; with full request/response logging), same prompt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

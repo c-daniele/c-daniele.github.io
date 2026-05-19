@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bedrock on Cdani&#39;s Blog</title>
+    <link>http://localhost:1313/en/tags/bedrock/</link>
+    <description>Recent content in Bedrock on Cdani&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/bedrock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s actually inside a coding agent: Claude Code vs OpenCode vs pi</title>
+      <link>http://localhost:1313/en/posts/2026-05-18-coding-harness-comparison/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/en/posts/2026-05-18-coding-harness-comparison/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Lately I keep seeing the same conversation on my timeline: Claude Code is &amp;ldquo;bloated,&amp;rdquo; it &amp;ldquo;wastes tokens,&amp;rdquo; and a leaner harness like &lt;a href=&#34;https://github.com/earendil-works/pi-coding-agent&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pi&lt;/a&gt; is the obvious answer. Then someone else replies that a 28k-token system prompt is the price you pay for a serious coding agent, and the thread devolves into vibes.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to look at this from a different angle: &lt;em&gt;what is actually being sent to the model on the very first turn?&lt;/em&gt; Not benchmarks, not productivity claims — the literal JSON payload that hits the LLM gateway when you say &amp;ldquo;hello&amp;rdquo; to each agent.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
